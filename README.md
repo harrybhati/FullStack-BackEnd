@@ -68,25 +68,25 @@ The default MongoDB connection string is: mongodb://127.0.0.1:27017/Item. You ca
                      "mobile": "1234567890"
                         }
 
-  Response:On success: Returns the registered user and a redirect URL based on the user's role.
+  **Response**:On success: Returns the registered user and a redirect URL based on the user's role.
           On failure: Returns an error if the user already exists or if there's an invalid role.
 
 
-  2.Login User (POST /login):
+  2.**Login User (POST /login)**:
        Payload:{
                  "username": "john_doe",
                  "password": "password123"
                  }
 
-  Response:On success: Returns a success message with the user role and username.
+  **Response**:On success: Returns a success message with the user role and username.
            On failure: Invalid credentials or internal server error.      
 
 
 
 
 
-8.Company Routes
-    1.Create Company (POST /user/company):
+## Company Routes
+    1.**Create Company (POST /user/company)**:
        Payload:{
                   "username": "john_doe",
                   "role": "IT_USER_NORMAL",
