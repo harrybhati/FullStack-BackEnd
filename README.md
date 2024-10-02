@@ -95,31 +95,31 @@ The default MongoDB connection string is: mongodb://127.0.0.1:27017/Item. You ca
                    "status": "pending"
                    }
 
-  2.Get All Companies (GET /companylist):
+  2.**Get All Companies (GET /companylist)**:
        Returns a list of all companies (Admin only).
-  3.Get Companies by Username (GET /companies?username=john_doe):
+  3.**Get Companies by Username (GET /companies?username=john_doe)**:
         Returns all companies associated with a specific user.
- 4.Edit Company (PUT /companylist/:id):
+ 4.**Edit Company (PUT /companylist/:id)**:
        Allows editing a specific company's details by id.
-5.Delete Company (DELETE /companylist/:id):
+5.**Delete Company (DELETE /companylist/:id)**:
    Allows deleting a company by id.
-6.Approve Company (PATCH /companylist/:id/approve):
+6.**Approve Company (PATCH /companylist/:id/approve)**:
    Approves a company by id (Admin only).
-7.Search Companies (GET /search/company?query=Tech):
+7.**Search Companies (GET /search/company?query=Tech)**:
      Searches for companies by name or address based on the provided query.
 
 
 
-User Roles:
-         Admin (IT_ADMIN): Can create, edit, delete, and approve companies, and view all companies.
-         Normal User (IT_USER_NORMAL): Can create and view only their own companies.
+ ## User Roles:
+         **Admin (IT_ADMIN)**: Can create, edit, delete, and approve companies, and view all companies.
+         **Normal User (IT_USER_NORMAL)**: Can create and view only their own companies.
 
 
 
 
-Running the Project:
-                 Backend: Start the backend server on http://localhost:4500.
-                Frontend: Start the React app on http://localhost:3000.
+## Running the Project:
+                 **Backend**: Start the backend server on http://localhost:4500.
+                **Frontend**: Start the React app on http://localhost:3000.
                Make sure both servers are running to have the full stack working.
 
 
