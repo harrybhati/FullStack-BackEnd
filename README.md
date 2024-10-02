@@ -31,7 +31,7 @@ This is a MERN (MongoDB, Express, React, Node.js) stack application that impleme
 ### Installation
 
 1. **Clone the repository**:
-   git clone https://github.com/harrybhati/FullStack-FrontEnd.git
+   git clone https://github.com/harrybhati/FullStack-BackEnd.git
    cd FullStack-FrontEnd
    Install Backend Dependencies: Navigate to the backend folder and install the dependencies:
 
