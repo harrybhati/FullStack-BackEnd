@@ -56,7 +56,7 @@ The default MongoDB connection string is: mongodb://127.0.0.1:27017/Item. You ca
 6.**Access the App**: The frontend will be running on http://localhost:3000 and the backend on http://localhost:4500.
 
 
-7.## API Endpoints 
+## API Endpoints 
     **User Routes**
         1. Register User (POST /register):
              payload:{
