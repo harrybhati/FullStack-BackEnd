@@ -35,28 +35,29 @@ This is a MERN (MongoDB, Express, React, Node.js) stack application that impleme
    cd FullStack-FrontEnd
    Install Backend Dependencies: Navigate to the backend folder and install the dependencies:
 
-2.Install Backend Dependencies: Navigate to the backend folder and install the dependencies:
+2.**Install Backend Dependencies**: 
+Navigate to the backend folder and install the dependencies:
   npm install
 
-3.Setup MongoDB:
+3.**Setup MongoDB**:
 Make sure MongoDB is running locally.
 The default MongoDB connection string is: mongodb://127.0.0.1:27017/Item. You can update the connection string in the Config.js file if needed.
 
 
-4.Run the Backend:
+4.**Run the Backend**:
   node index.js or nodemon index.js
 
 
-5.Frontend Setup:
+5.**Frontend Setup**:
   Navigate to the frontend folder (if it's in a separate directory), install dependencies, and start the React app:
   npm install
   npm start
 
-6.Access the App: The frontend will be running on http://localhost:3000 and the backend on http://localhost:4500.
+6.**Access the App**: The frontend will be running on http://localhost:3000 and the backend on http://localhost:4500.
 
 
-7.API Endpoints 
-     User Routes
+7.## API Endpoints 
+    **User Routes**
         1. Register User (POST /register):
              payload:{
                      "name": "John Doe",
